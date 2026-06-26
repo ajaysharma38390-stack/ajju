@@ -1,0 +1,29 @@
+body {
+    margin: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    /*
+    Challenge:
+    Give the card a width of 400px wide and center it.
+    */
+    background:#778da9;
+    width: 400px;
+   margin:0 auto;
+
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 16px solid #e0e1dd;
+}
+
+.border-blue {
+    border: 1px dotted rgb(13, 16, 16);
+    background-color: rgb(69, 197, 82);
+}
